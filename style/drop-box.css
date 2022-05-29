@@ -1,0 +1,41 @@
+.drop-box
+{
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    color: #cdcdcd;
+    width: 8em;
+    min-height: 2.5em;
+    text-align: center;
+    background-color: #343434;
+    padding: 0;
+}
+
+.drop-box__item
+{
+    min-width: inherit;
+    min-height: inherit;
+    display: none;
+}
+
+.drop-box__item:hover
+{
+    background-color: #282928;
+}
+
+.drop-box__item_selected
+{
+    order: -1;
+}
+
+.drop-box__item_listed
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+.drop-box__item > .content
+{
+    margin: auto;
+}

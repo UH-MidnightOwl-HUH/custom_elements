@@ -1,0 +1,25 @@
+.checkbox
+{
+    width: 2em;
+    height: 2em;
+    display: flex;
+
+    border: 1px solid #232323;
+    border-radius: 15%;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox:hover
+{
+    cursor: pointer;
+}
+
+.checkbox__checked
+{
+    width: 60%;
+    height: 60%;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
